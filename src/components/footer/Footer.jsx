@@ -13,25 +13,37 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="#about" className="footer__link">
-              Projects
+            <a href="#skills" className="footer__link">
+              Skills
             </a>
           </li>
           <li>
-            <a href="#about" className="footer__link">
-              Testimonials
+            <a href="#services" className="footer__link">
+              Services
             </a>
           </li>
         </ul>
 
         <div className="footer__social">
-          <a href="#" target="_blank" className="footer__social-link">
+          <a
+            href="https://www.facebook.com/aashirisrarofficial"
+            target="_blank"
+            className="footer__social-link"
+          >
             <i className="bx bxl-facebook"></i>
           </a>
-          <a href="#" target="_blank" className="footer__social-link">
+          <a
+            href="https://www.instagram.com/aashir_israr/"
+            target="_blank"
+            className="footer__social-link"
+          >
             <i className="bx bxl-instagram"></i>
           </a>
-          <a href="#" target="_blank" className="footer__social-link">
+          <a
+            href="https://twitter.com/aashir_israr"
+            target="_blank"
+            className="footer__social-link"
+          >
             <i className="bx bxl-twitter"></i>
           </a>
         </div>

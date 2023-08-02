@@ -1,5 +1,5 @@
 import "./about.css";
-import AboutImg from "../../assets/about.jpg";
+import AboutImg from "../../assets/profile2.JPEG";
 import CV from "../../assets/Aashir_Israr-Resume.pdf";
 import Info from "./Info";
 
@@ -17,7 +17,7 @@ const About = () => {
 
           <p className="about__description">
             Frontend developer, I create web pages with UI / UX user interface,
-            I have years of experience and many clients are happy with the
+            I have 2 years of experience and many clients are happy with the
             projects carried out.
           </p>
 
