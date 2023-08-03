@@ -7,13 +7,14 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="/" className="nav__logo">
+          <i class="bx bx-planet bx-md planet-icon"></i>
           Aashir Israr
         </a>
 
         <div className={toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">
-              <a href="#" className="nav__link active-link">
+              <a href="#home" className="nav__link active-link">
                 <i className="uil uil-estate nav__icon"></i>Home
               </a>
             </li>

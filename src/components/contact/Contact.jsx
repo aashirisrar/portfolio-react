@@ -34,31 +34,10 @@ const Contact = () => {
                 aashirisrar968@gmail.com
               </span>
 
-              <a href="#" className="contact_button">
-                Write me
-                <i className="bx bx-right-arrow-alt contact_button-icon"></i>
-              </a>
-            </div>
-
-            <div className="contact_card">
-              <i className="bx bxl-whatsapp contact_card-icon"></i>
-
-              <h3 className="contact_card-title">Whatsapp</h3>
-              <span className="contact_card-data">999-888-777</span>
-
-              <a href="#" className="contact_button">
-                Write me
-                <i className="bx bx-right-arrow-alt contact_button-icon"></i>
-              </a>
-            </div>
-
-            <div className="contact_card">
-              <i className="bx bxl-messenger contact_card-icon"></i>
-
-              <h3 className="contact_card-title">Messenger</h3>
-              <span className="contact_card-data">user.fb123</span>
-
-              <a href="#" className="contact_button">
+              <a
+                href="mailto:aashirisrar968@gmail.com"
+                className="contact_button"
+              >
                 Write me
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
