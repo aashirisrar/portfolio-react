@@ -74,7 +74,7 @@ const Portfolio = () => {
                 <div className="portfolio-item__content">
                   <div>
                     <img
-                      alt="work-image"
+                      alt="work-image-1"
                       src={work1}
                       className="portfolio-image"
                     />
@@ -95,7 +95,7 @@ const Portfolio = () => {
                 <div className="portfolio-item__content">
                   <div>
                     <img
-                      alt="work-image"
+                      alt="work-image-2"
                       src={work2}
                       className="portfolio-image"
                     />
@@ -118,7 +118,7 @@ const Portfolio = () => {
                 <div className="portfolio-item__content">
                   <div>
                     <img
-                      alt="work-image"
+                      alt="work-image-3"
                       src={work3}
                       className="portfolio-image"
                     />
@@ -139,7 +139,7 @@ const Portfolio = () => {
                 <div className="portfolio-item__content">
                   <div>
                     <img
-                      alt="work-image"
+                      alt="work-image-4"
                       src={work4}
                       className="portfolio-image"
                     />
@@ -170,7 +170,7 @@ const Portfolio = () => {
                 <div className="portfolio-item__content">
                   <div>
                     <img
-                      alt="work-image"
+                      alt="work-image-5"
                       src={work1}
                       className="portfolio-image"
                     />
@@ -191,7 +191,7 @@ const Portfolio = () => {
                 <div className="portfolio-item__content">
                   <div>
                     <img
-                      alt="work-image"
+                      alt="work-image-6"
                       src={work2}
                       className="portfolio-image"
                     />
@@ -224,7 +224,7 @@ const Portfolio = () => {
                 <div className="portfolio-item__content">
                   <div>
                     <img
-                      alt="work-image"
+                      alt="work-image-7"
                       src={work3}
                       className="portfolio-image"
                     />
@@ -255,7 +255,7 @@ const Portfolio = () => {
                 <div className="portfolio-item__content">
                   <div>
                     <img
-                      alt="work-image"
+                      alt="work-image-7"
                       src={work4}
                       className="portfolio-image"
                     />
