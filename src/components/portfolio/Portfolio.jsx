@@ -73,11 +73,7 @@ const Portfolio = () => {
               <div className="portfolio-item__container container grid">
                 <div className="portfolio-item__content">
                   <div>
-                    <img
-                      alt="work-image-1"
-                      src={work1}
-                      className="portfolio-image"
-                    />
+                    <img alt="work-1" src={work1} className="portfolio-image" />
                     <h3 className="portfolio-item__title">AI Generator</h3>
                   </div>
 
@@ -94,11 +90,7 @@ const Portfolio = () => {
 
                 <div className="portfolio-item__content">
                   <div>
-                    <img
-                      alt="work-image-2"
-                      src={work2}
-                      className="portfolio-image"
-                    />
+                    <img alt="work-2" src={work2} className="portfolio-image" />
                     <h3 className="portfolio-item__title">
                       AI Article Summarizer
                     </h3>
@@ -117,11 +109,7 @@ const Portfolio = () => {
 
                 <div className="portfolio-item__content">
                   <div>
-                    <img
-                      alt="work-image-3"
-                      src={work3}
-                      className="portfolio-image"
-                    />
+                    <img alt="work-3" src={work3} className="portfolio-image" />
                     <h3 className="portfolio-item__title">Recipe App</h3>
                   </div>
 
@@ -138,11 +126,7 @@ const Portfolio = () => {
 
                 <div className="portfolio-item__content">
                   <div>
-                    <img
-                      alt="work-image-4"
-                      src={work4}
-                      className="portfolio-image"
-                    />
+                    <img alt="work-4" src={work4} className="portfolio-image" />
                     <h3 className="portfolio-item__title">Ecommerce Website</h3>
                   </div>
 
@@ -169,11 +153,7 @@ const Portfolio = () => {
               <div className="portfolio-item__container container grid">
                 <div className="portfolio-item__content">
                   <div>
-                    <img
-                      alt="work-image-5"
-                      src={work1}
-                      className="portfolio-image"
-                    />
+                    <img alt="work-5" src={work1} className="portfolio-image" />
                     <h3 className="portfolio-item__title">AI Generator</h3>
                   </div>
 
@@ -190,11 +170,7 @@ const Portfolio = () => {
 
                 <div className="portfolio-item__content">
                   <div>
-                    <img
-                      alt="work-image-6"
-                      src={work2}
-                      className="portfolio-image"
-                    />
+                    <img alt="work-6" src={work2} className="portfolio-image" />
                     <h3 className="portfolio-item__title">
                       AI Article Summarizer
                     </h3>
@@ -223,11 +199,7 @@ const Portfolio = () => {
               <div className="portfolio-item__container container grid">
                 <div className="portfolio-item__content">
                   <div>
-                    <img
-                      alt="work-image-7"
-                      src={work3}
-                      className="portfolio-image"
-                    />
+                    <img alt="work-7" src={work3} className="portfolio-image" />
                     <h3 className="portfolio-item__title">Recipe App</h3>
                   </div>
 
@@ -254,11 +226,7 @@ const Portfolio = () => {
               <div className="portfolio-item__container container grid">
                 <div className="portfolio-item__content">
                   <div>
-                    <img
-                      alt="work-image-7"
-                      src={work4}
-                      className="portfolio-image"
-                    />
+                    <img alt="work-7" src={work4} className="portfolio-image" />
                     <h3 className="portfolio-item__title">Ecommerce Website</h3>
                   </div>
 
