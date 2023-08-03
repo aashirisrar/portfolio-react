@@ -33,7 +33,11 @@ const Header = () => {
                 <i className="uil uil-briefcase-alt nav__icon"></i>Services
               </a>
             </li>
-
+            <li className="nav__item">
+              <a href="#portfolio" className="nav__link">
+                <i className="uil uil-briefcase-alt nav__icon"></i>Portfolio
+              </a>
+            </li>
             <li className="nav__item">
               <a href="#contact" className="nav__link">
                 <i className="uil uil-message nav__icon"></i>

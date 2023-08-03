@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./portfolio.css";
-import work1 from "../../assets/work1.jpg";
-import work2 from "../../assets/work2.jpg";
+import work1 from "../../assets/work2.jpg";
+import work2 from "../../assets/work1.jpg";
 import work3 from "../../assets/work3.jpg";
 import work4 from "../../assets/work4.jpg";
 import work5 from "../../assets/work5.jpg";
@@ -75,37 +75,67 @@ const Portfolio = () => {
                 <div className="portfolio-item__content">
                   <div>
                     <img src={work1} className="portfolio-image" />
-                    <h3 className="portfolio-item__title">Web Design</h3>
+                    <h3 className="portfolio-item__title">AI Generator</h3>
                   </div>
 
-                  <span className="portfolio-item__button">
-                    Demo
+                  <a
+                    target="_blank"
+                    href="https://saas-ai-app.vercel.app"
+                    className="portfolio-item__button"
+                  >
+                    View
                     <i className="uil uil-arrow-right portfolio-item__button-icon"></i>
-                  </span>
+                  </a>
                 </div>
 
                 <div className="portfolio-item__content">
                   <div>
                     <img src={work2} className="portfolio-image" />
-                    <h3 className="portfolio-item__title">App Movil</h3>
+                    <h3 className="portfolio-item__title">
+                      AI Article Summarizer
+                    </h3>
                   </div>
 
-                  <span className="portfolio-item__button">
-                    Demo
+                  <a
+                    href="https://articlesummarizergpt4.netlify.app/"
+                    target="_blank"
+                    className="portfolio-item__button"
+                  >
+                    View
                     <i className="uil uil-arrow-right portfolio-item__button-icon"></i>
-                  </span>
+                  </a>
                 </div>
 
                 <div className="portfolio-item__content">
                   <div>
                     <img src={work3} className="portfolio-image" />
-                    <h3 className="portfolio-item__title">Visual Designer</h3>
+                    <h3 className="portfolio-item__title">Recipe App</h3>
                   </div>
 
-                  <span className="portfolio-item__button">
-                    Demo
+                  <a
+                    target="_blank"
+                    href="https://react-recipe-app-advanced.netlify.app/"
+                    className="portfolio-item__button"
+                  >
+                    View
                     <i className="uil uil-arrow-right portfolio-item__button-icon"></i>
-                  </span>
+                  </a>
+                </div>
+
+                <div className="portfolio-item__content">
+                  <div>
+                    <img src={work4} className="portfolio-image" />
+                    <h3 className="portfolio-item__title">Ecommerce Website</h3>
+                  </div>
+
+                  <a
+                    target="_blank"
+                    href="https://react-recipe-app-3.netlify.app/"
+                    className="portfolio-item__button"
+                  >
+                    View
+                    <i className="uil uil-arrow-right portfolio-item__button-icon"></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -121,29 +151,87 @@ const Portfolio = () => {
                 <div className="portfolio-item__content">
                   <div>
                     <img src={work1} className="portfolio-image" />
-                    <h3 className="portfolio-item__title">
-                      Product <br /> Designer
-                    </h3>
+                    <h3 className="portfolio-item__title">AI Generator</h3>
                   </div>
 
-                  <span className="portfolio-item__button">
-                    Demo
+                  <a
+                    target="_blank"
+                    href="https://saas-ai-app.vercel.app"
+                    className="portfolio-item__button"
+                  >
+                    View
                     <i className="uil uil-arrow-right portfolio-item__button-icon"></i>
-                  </span>
+                  </a>
                 </div>
 
                 <div className="portfolio-item__content">
                   <div>
-                    <img src={work1} className="portfolio-image" />
+                    <img src={work2} className="portfolio-image" />
                     <h3 className="portfolio-item__title">
-                      UI/UX <br /> Designer
+                      AI Article Summarizer
                     </h3>
                   </div>
 
-                  <span className="portfolio-item__button">
-                    Demo
+                  <a
+                    href="https://articlesummarizergpt4.netlify.app/"
+                    target="_blank"
+                    className="portfolio-item__button"
+                  >
+                    View
                     <i className="uil uil-arrow-right portfolio-item__button-icon"></i>
-                  </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className={
+                toggleState === 3
+                  ? "qualification__content qualification__content-active"
+                  : "qualification__content"
+              }
+            >
+              <div className="portfolio-item__container container grid">
+                <div className="portfolio-item__content">
+                  <div>
+                    <img src={work3} className="portfolio-image" />
+                    <h3 className="portfolio-item__title">Recipe App</h3>
+                  </div>
+
+                  <a
+                    target="_blank"
+                    href="https://react-recipe-app-advanced.netlify.app/"
+                    className="portfolio-item__button"
+                  >
+                    View
+                    <i className="uil uil-arrow-right portfolio-item__button-icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className={
+                toggleState === 4
+                  ? "qualification__content qualification__content-active"
+                  : "qualification__content"
+              }
+            >
+              <div className="portfolio-item__container container grid">
+                <div className="portfolio-item__content">
+                  <div>
+                    <img src={work4} className="portfolio-image" />
+                    <h3 className="portfolio-item__title">Ecommerce Website</h3>
+                  </div>
+
+                  <a
+                    target="_blank"
+                    href="https://react-recipe-app-3.netlify.app/"
+                    className="portfolio-item__button"
+                  >
+                    View
+                    <i className="uil uil-arrow-right portfolio-item__button-icon"></i>
+                  </a>
                 </div>
               </div>
             </div>
