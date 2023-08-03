@@ -4,7 +4,6 @@ import work1 from "../../assets/work2.jpg";
 import work2 from "../../assets/work1.jpg";
 import work3 from "../../assets/work3.jpg";
 import work4 from "../../assets/work4.jpg";
-import work5 from "../../assets/work5.jpg";
 
 const Portfolio = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -74,12 +73,17 @@ const Portfolio = () => {
               <div className="portfolio-item__container container grid">
                 <div className="portfolio-item__content">
                   <div>
-                    <img src={work1} className="portfolio-image" />
+                    <img
+                      alt="work-image"
+                      src={work1}
+                      className="portfolio-image"
+                    />
                     <h3 className="portfolio-item__title">AI Generator</h3>
                   </div>
 
                   <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://saas-ai-app.vercel.app"
                     className="portfolio-item__button"
                   >
@@ -90,7 +94,11 @@ const Portfolio = () => {
 
                 <div className="portfolio-item__content">
                   <div>
-                    <img src={work2} className="portfolio-image" />
+                    <img
+                      alt="work-image"
+                      src={work2}
+                      className="portfolio-image"
+                    />
                     <h3 className="portfolio-item__title">
                       AI Article Summarizer
                     </h3>
@@ -99,6 +107,7 @@ const Portfolio = () => {
                   <a
                     href="https://articlesummarizergpt4.netlify.app/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="portfolio-item__button"
                   >
                     View
@@ -108,12 +117,17 @@ const Portfolio = () => {
 
                 <div className="portfolio-item__content">
                   <div>
-                    <img src={work3} className="portfolio-image" />
+                    <img
+                      alt="work-image"
+                      src={work3}
+                      className="portfolio-image"
+                    />
                     <h3 className="portfolio-item__title">Recipe App</h3>
                   </div>
 
                   <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://react-recipe-app-advanced.netlify.app/"
                     className="portfolio-item__button"
                   >
@@ -124,12 +138,17 @@ const Portfolio = () => {
 
                 <div className="portfolio-item__content">
                   <div>
-                    <img src={work4} className="portfolio-image" />
+                    <img
+                      alt="work-image"
+                      src={work4}
+                      className="portfolio-image"
+                    />
                     <h3 className="portfolio-item__title">Ecommerce Website</h3>
                   </div>
 
                   <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://react-recipe-app-3.netlify.app/"
                     className="portfolio-item__button"
                   >
@@ -150,12 +169,17 @@ const Portfolio = () => {
               <div className="portfolio-item__container container grid">
                 <div className="portfolio-item__content">
                   <div>
-                    <img src={work1} className="portfolio-image" />
+                    <img
+                      alt="work-image"
+                      src={work1}
+                      className="portfolio-image"
+                    />
                     <h3 className="portfolio-item__title">AI Generator</h3>
                   </div>
 
                   <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://saas-ai-app.vercel.app"
                     className="portfolio-item__button"
                   >
@@ -166,7 +190,11 @@ const Portfolio = () => {
 
                 <div className="portfolio-item__content">
                   <div>
-                    <img src={work2} className="portfolio-image" />
+                    <img
+                      alt="work-image"
+                      src={work2}
+                      className="portfolio-image"
+                    />
                     <h3 className="portfolio-item__title">
                       AI Article Summarizer
                     </h3>
@@ -175,6 +203,7 @@ const Portfolio = () => {
                   <a
                     href="https://articlesummarizergpt4.netlify.app/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="portfolio-item__button"
                   >
                     View
@@ -194,12 +223,17 @@ const Portfolio = () => {
               <div className="portfolio-item__container container grid">
                 <div className="portfolio-item__content">
                   <div>
-                    <img src={work3} className="portfolio-image" />
+                    <img
+                      alt="work-image"
+                      src={work3}
+                      className="portfolio-image"
+                    />
                     <h3 className="portfolio-item__title">Recipe App</h3>
                   </div>
 
                   <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://react-recipe-app-advanced.netlify.app/"
                     className="portfolio-item__button"
                   >
@@ -220,12 +254,17 @@ const Portfolio = () => {
               <div className="portfolio-item__container container grid">
                 <div className="portfolio-item__content">
                   <div>
-                    <img src={work4} className="portfolio-image" />
+                    <img
+                      alt="work-image"
+                      src={work4}
+                      className="portfolio-image"
+                    />
                     <h3 className="portfolio-item__title">Ecommerce Website</h3>
                   </div>
 
                   <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://react-recipe-app-3.netlify.app/"
                     className="portfolio-item__button"
                   >

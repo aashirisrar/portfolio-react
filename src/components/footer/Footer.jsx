@@ -28,6 +28,7 @@ const Footer = () => {
           <a
             href="https://www.facebook.com/aashirisrarofficial"
             target="_blank"
+            rel="noopener noreferrer"
             className="footer__social-link"
           >
             <i className="bx bxl-facebook"></i>
@@ -35,6 +36,7 @@ const Footer = () => {
           <a
             href="https://www.instagram.com/aashir_israr/"
             target="_blank"
+            rel="noopener noreferrer"
             className="footer__social-link"
           >
             <i className="bx bxl-instagram"></i>
@@ -42,6 +44,7 @@ const Footer = () => {
           <a
             href="https://twitter.com/aashir_israr"
             target="_blank"
+            rel="noopener noreferrer"
             className="footer__social-link"
           >
             <i className="bx bxl-twitter"></i>

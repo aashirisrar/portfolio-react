@@ -4,6 +4,7 @@ const Social = () => {
       <a
         href="https://www.instagram.com/aashir_israr/"
         target="_blank"
+        rel="noopener noreferrer"
         className="home__social-icon"
       >
         <i className="uil uil-instagram"></i>
@@ -11,6 +12,7 @@ const Social = () => {
       <a
         href="https://www.linkedin.com/in/aashir-israr/"
         target="_blank"
+        rel="noopener noreferrer"
         className="home__social-icon"
       >
         <i className="uil uil-linkedin"></i>
@@ -18,6 +20,7 @@ const Social = () => {
       <a
         href="https://github.com/aashirisrar"
         target="_blank"
+        rel="noopener noreferrer"
         className="home__social-icon"
       >
         <i className="uil uil-github-alt"></i>
