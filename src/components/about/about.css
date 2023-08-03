@@ -75,7 +75,7 @@
 }
 
 /* For medium devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   .about__info {
     grid-template-columns: repeat(3, 1fr);
   }
