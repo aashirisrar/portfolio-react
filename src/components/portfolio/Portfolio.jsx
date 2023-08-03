@@ -1,5 +1,10 @@
 import { useState } from "react";
 import "./portfolio.css";
+import work1 from "../../assets/work1.jpg";
+import work2 from "../../assets/work2.jpg";
+import work3 from "../../assets/work3.jpg";
+import work4 from "../../assets/work4.jpg";
+import work5 from "../../assets/work5.jpg";
 
 const Portfolio = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -69,10 +74,8 @@ const Portfolio = () => {
               <div className="portfolio-item__container container grid">
                 <div className="portfolio-item__content">
                   <div>
-                    <i className="uil uil-web-grid portfolio-item__icon"></i>
-                    <h3 className="portfolio-item__title">
-                      Product <br /> Designer
-                    </h3>
+                    <img src={work1} className="portfolio-image" />
+                    <h3 className="portfolio-item__title">Web Design</h3>
                   </div>
 
                   <span className="portfolio-item__button">
@@ -83,10 +86,8 @@ const Portfolio = () => {
 
                 <div className="portfolio-item__content">
                   <div>
-                    <i className="uil uil-arrow portfolio-item__icon"></i>
-                    <h3 className="portfolio-item__title">
-                      UI/UX <br /> Designer
-                    </h3>
+                    <img src={work2} className="portfolio-image" />
+                    <h3 className="portfolio-item__title">App Movil</h3>
                   </div>
 
                   <span className="portfolio-item__button">
@@ -97,12 +98,8 @@ const Portfolio = () => {
 
                 <div className="portfolio-item__content">
                   <div>
-                    <i className="uil uil-edit portfolio-item__icon"></i>
-                    <h3 className="portfolio-item__title">
-                      Visual
-                      <br />
-                      Designer
-                    </h3>
+                    <img src={work3} className="portfolio-image" />
+                    <h3 className="portfolio-item__title">Visual Designer</h3>
                   </div>
 
                   <span className="portfolio-item__button">
@@ -123,7 +120,7 @@ const Portfolio = () => {
               <div className="portfolio-item__container container grid">
                 <div className="portfolio-item__content">
                   <div>
-                    <i className="uil uil-web-grid portfolio-item__icon"></i>
+                    <img src={work1} className="portfolio-image" />
                     <h3 className="portfolio-item__title">
                       Product <br /> Designer
                     </h3>
@@ -137,7 +134,7 @@ const Portfolio = () => {
 
                 <div className="portfolio-item__content">
                   <div>
-                    <i className="uil uil-arrow portfolio-item__icon"></i>
+                    <img src={work1} className="portfolio-image" />
                     <h3 className="portfolio-item__title">
                       UI/UX <br /> Designer
                     </h3>
