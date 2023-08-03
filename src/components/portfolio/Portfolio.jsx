@@ -15,13 +15,13 @@ const Portfolio = () => {
 
       <div className="portfolio_container container grid">
         <div className="portfolio_content">
-          <div className="qualification__tabs">
+          <div className="portfolio__tabs">
             <div
               onClick={() => toggleTab(1)}
               className={
                 toggleState === 1
-                  ? "qualification__button qualification__active button--flex"
-                  : "qualification__button button--flex"
+                  ? "portfolio__button portfolio__active button--flex"
+                  : "portfolio__button button--flex"
               }
             >
               All
@@ -30,8 +30,8 @@ const Portfolio = () => {
               onClick={() => toggleTab(2)}
               className={
                 toggleState === 2
-                  ? "qualification__button qualification__active button--flex"
-                  : "qualification__button button--flex"
+                  ? "portfolio__button portfolio__active button--flex"
+                  : "portfolio__button button--flex"
               }
             >
               Web
@@ -40,8 +40,8 @@ const Portfolio = () => {
               onClick={() => toggleTab(3)}
               className={
                 toggleState === 3
-                  ? "qualification__button qualification__active button--flex"
-                  : "qualification__button button--flex"
+                  ? "portfolio__button portfolio__active button--flex"
+                  : "portfolio__button button--flex"
               }
             >
               App
@@ -50,11 +50,105 @@ const Portfolio = () => {
               onClick={() => toggleTab(4)}
               className={
                 toggleState === 4
-                  ? "qualification__button qualification__active button--flex"
-                  : "qualification__button button--flex"
+                  ? "portfolio__button portfolio__active button--flex"
+                  : "portfolio__button button--flex"
               }
             >
               Design
+            </div>
+          </div>
+
+          <div className="portfolio__sections">
+            <div
+              className={
+                toggleState === 1
+                  ? "portfolio__content portfolio__content-active"
+                  : "portfolio__content"
+              }
+            >
+              <div className="portfolio-item__container container grid">
+                <div className="portfolio-item__content">
+                  <div>
+                    <i className="uil uil-web-grid portfolio-item__icon"></i>
+                    <h3 className="portfolio-item__title">
+                      Product <br /> Designer
+                    </h3>
+                  </div>
+
+                  <span className="portfolio-item__button">
+                    Demo
+                    <i className="uil uil-arrow-right portfolio-item__button-icon"></i>
+                  </span>
+                </div>
+
+                <div className="portfolio-item__content">
+                  <div>
+                    <i className="uil uil-arrow portfolio-item__icon"></i>
+                    <h3 className="portfolio-item__title">
+                      UI/UX <br /> Designer
+                    </h3>
+                  </div>
+
+                  <span className="portfolio-item__button">
+                    Demo
+                    <i className="uil uil-arrow-right portfolio-item__button-icon"></i>
+                  </span>
+                </div>
+
+                <div className="portfolio-item__content">
+                  <div>
+                    <i className="uil uil-edit portfolio-item__icon"></i>
+                    <h3 className="portfolio-item__title">
+                      Visual
+                      <br />
+                      Designer
+                    </h3>
+                  </div>
+
+                  <span className="portfolio-item__button">
+                    Demo
+                    <i className="uil uil-arrow-right portfolio-item__button-icon"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className={
+                toggleState === 2
+                  ? "qualification__content qualification__content-active"
+                  : "qualification__content"
+              }
+            >
+              <div className="portfolio-item__container container grid">
+                <div className="portfolio-item__content">
+                  <div>
+                    <i className="uil uil-web-grid portfolio-item__icon"></i>
+                    <h3 className="portfolio-item__title">
+                      Product <br /> Designer
+                    </h3>
+                  </div>
+
+                  <span className="portfolio-item__button">
+                    Demo
+                    <i className="uil uil-arrow-right portfolio-item__button-icon"></i>
+                  </span>
+                </div>
+
+                <div className="portfolio-item__content">
+                  <div>
+                    <i className="uil uil-arrow portfolio-item__icon"></i>
+                    <h3 className="portfolio-item__title">
+                      UI/UX <br /> Designer
+                    </h3>
+                  </div>
+
+                  <span className="portfolio-item__button">
+                    Demo
+                    <i className="uil uil-arrow-right portfolio-item__button-icon"></i>
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
