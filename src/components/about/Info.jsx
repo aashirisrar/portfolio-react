@@ -14,9 +14,9 @@ const Info = () => {
       </div>
 
       <div className="about__box">
-        <i className="bx bx-support about__icon"></i>
-        <h3 className="about__title">Support</h3>
-        <span className="about__subtitle">Online 24/7</span>
+        <i className="uil uil-bolt about__icon"></i>
+        <h3 className="about__title">Focused</h3>
+        <span className="about__subtitle">Work</span>
       </div>
     </div>
   );
