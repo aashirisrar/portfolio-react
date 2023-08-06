@@ -116,7 +116,7 @@ const Portfolio = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://react-recipe-app-advanced.netlify.app/"
+                    href="https://react-recipe-app-3.netlify.app/"
                     className="portfolio-item__button"
                   >
                     View
@@ -133,7 +133,7 @@ const Portfolio = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://react-recipe-app-3.netlify.app/"
+                    href="https://react-ecommerce-3.netlify.app/"
                     className="portfolio-item__button"
                   >
                     View
@@ -206,7 +206,7 @@ const Portfolio = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://react-recipe-app-advanced.netlify.app/"
+                    href="https://react-recipe-app-3.netlify.app/"
                     className="portfolio-item__button"
                   >
                     View
@@ -233,7 +233,7 @@ const Portfolio = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://react-recipe-app-3.netlify.app/"
+                    href="https://react-ecommerce-3.netlify.app/"
                     className="portfolio-item__button"
                   >
                     View
