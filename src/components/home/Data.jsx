@@ -56,8 +56,7 @@ const Data = () => {
 
       <h3 className="home__subtitle">Web Developer</h3>
       <p className="home__description">
-        I'm a web developer based in Pakisan, and I'm very passionate and
-        dedicated to my work
+        I'm a passionate web developer based in Pakisan.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello
